@@ -1,0 +1,28 @@
+{
+  "assemblies": [
+    {
+      "name": "view?usp=drive_link",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "view?usp=drive_link-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": []
+}
