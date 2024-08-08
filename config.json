@@ -24,5 +24,42 @@
   "defaultSession": {
     "name": "New Session"
   },
-  "tracks": []
+  "tracks": [
+    {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "microarray_multi_groups",
+      "name": "Pi per population",
+      "category": ["MultiWig Track"],
+      "assemblyNames": ["GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz"],
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+        "subadapters": [
+          {
+            "type": "BigWigAdapter",
+            "name": "BW CSTL",
+            "bigWigLocation": {
+              "uri": "my_data/bw_cstl_all.bw"
+            },
+            "color":"blue"
+          },
+          {
+            "type": "BigWigAdapter",
+            "name": "BW INS",
+            "bigWigLocation": {
+              "uri": "my_data/bw_ins_all.bw"
+            },
+            "color":"green"
+          },
+          {
+            "type": "BigWigAdapter",
+            "name": "BW OFF",
+            "bigWigLocation": {
+              "uri": "my_data/bw_off_all.bw"
+            },
+            "color":"red"
+          }
+        ]
+      }
+    }
+  ]
 }
