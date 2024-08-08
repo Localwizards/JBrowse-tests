@@ -1,18 +1,18 @@
 {
   "assemblies": [
     {
-      "name": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna",
+      "name": "old ooof",
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://duke.box.com/s/d5qtilaj5tmg3pw69i0mv9a7pdy4k2me,
+            "uri": "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=d5qtilaj5tmg3pw69i0mv9a7pdy4k2me&file_id=f_1615770505304",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://duke.box.com/s/poaro3uujj1se834fhlj8jmlqbhm2btp",
+            "uri": "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=poaro3uujj1se834fhlj8jmlqbhm2btp&file_id=f_1615783890986",
             "locationType": "UriLocation"
           }
         }
