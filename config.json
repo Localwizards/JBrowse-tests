@@ -17,6 +17,24 @@
           }
         }
       }
+    },
+    {
+      "name": "hg38.prefix.fa.gz",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hg38.prefix.fa.gz-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://jbrowse.org/genomes/GRCh38/fasta/hg38.prefix.fa.gz",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://jbrowse.org/genomes/GRCh38/fasta/hg38.prefix.fa.gz.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
     }
   ],
   "configuration": {},
