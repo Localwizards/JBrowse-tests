@@ -8,11 +8,11 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna",
+            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.fai",
+            "uri": "https://drive.google.com/file/d/1hsri5KNpilIr4B6W-EJd_PCtRxwS9iUQ/view?usp=drive_link",
             "locationType": "UriLocation"
           }
         }
