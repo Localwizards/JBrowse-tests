@@ -8,11 +8,11 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link",
+            "uri": "https://duke.box.com/s/d5qtilaj5tmg3pw69i0mv9a7pdy4k2me,
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://drive.google.com/file/d/1hsri5KNpilIr4B6W-EJd_PCtRxwS9iUQ/view?usp=drive_link",
+            "uri": "https://duke.box.com/s/poaro3uujj1se834fhlj8jmlqbhm2btp",
             "locationType": "UriLocation"
           }
         }
