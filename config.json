@@ -1,18 +1,18 @@
 {
   "assemblies": [
     {
-      "name": "GCF_011762595.1_mTurTru1.mat.Y_genomic",
+      "name": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "view?usp=sharing-ReferenceSequenceTrack",
+        "trackId": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://drive.google.com/uc?export=download&id=1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS",
+            "uri": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://drive.google.com/uc?export=download&id=1hsri5KNpilIr4B6W-EJd_PCtRxwS9iUQ",
+            "uri": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.fai",
             "locationType": "UriLocation"
           }
         }
