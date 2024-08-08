@@ -1,18 +1,18 @@
 {
   "assemblies": [
     {
-      "name": "view?usp=drive_link",
+      "name": "hg38.prefix.fa.gz",
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "view?usp=drive_link-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link",
+            "uri": "https://jbrowse.org/genomes/GRCh38/fasta/hg38.prefix.fa.gz",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link.fai",
+            "uri": "https://jbrowse.org/genomes/GRCh38/fasta/hg38.prefix.fa.gz.fai",
             "locationType": "UriLocation"
           }
         }
