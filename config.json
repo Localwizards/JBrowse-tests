@@ -1,18 +1,18 @@
 {
   "assemblies": [
     {
-      "name": "tursiops Truncatus",
+      "name": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "view?usp=drive_link-ReferenceSequenceTrack",
+        "trackId": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=w1q4zbojvpnw6s7v8h1j1d7du91yydzx&file_id=f_1615770505304",
+            "uri": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=30ksl5xy0nedxeuhs1ucehwwa0dyg64u&file_id=f_1615783890986",
+            "uri": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.fai.gz",
             "locationType": "UriLocation"
           }
         }
