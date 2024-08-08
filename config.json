@@ -1,36 +1,18 @@
 {
   "assemblies": [
     {
-      "name": "old ooof",
+      "name": "view?usp=drive_link",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna-ReferenceSequenceTrack",
+        "trackId": "view?usp=drive_link-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=d5qtilaj5tmg3pw69i0mv9a7pdy4k2me&file_id=f_1615770505304",
+            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=poaro3uujj1se834fhlj8jmlqbhm2btp&file_id=f_1615783890986",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "hg38.prefix.fa.gz",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "hg38.prefix.fa.gz-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "https://jbrowse.org/genomes/GRCh38/fasta/hg38.prefix.fa.gz",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "https://jbrowse.org/genomes/GRCh38/fasta/hg38.prefix.fa.gz.fai",
+            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link.fai",
             "locationType": "UriLocation"
           }
         }
