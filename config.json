@@ -1,18 +1,18 @@
 {
   "assemblies": [
     {
-      "name": "view?usp=drive_link",
+      "name": "view?usp=sharing",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "view?usp=drive_link-ReferenceSequenceTrack",
+        "trackId": "view?usp=sharing-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link",
+            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=sharing",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://drive.google.com/file/d/1hEr7cGKVnzLdsivP_tt7apefM9bx8YYS/view?usp=drive_link.fai",
+            "uri": "https://drive.google.com/file/d/1hsri5KNpilIr4B6W-EJd_PCtRxwS9iUQ/view?usp=sharing",
             "locationType": "UriLocation"
           }
         }
