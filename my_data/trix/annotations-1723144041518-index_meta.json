@@ -1,0 +1,26 @@
+{
+  "dateCreated": "2024-08-08T19:07:41.074Z",
+  "tracks": [
+    {
+      "trackId": "annotations-1723144041518",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "locationType": "UriLocation",
+          "uri": "my_test/GCF_011762595.1_mTurTru1.mat.Y_genomic.gff"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz"
+  ]
+}

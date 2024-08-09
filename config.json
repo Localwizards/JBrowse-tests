@@ -60,6 +60,55 @@
           }
         ]
       }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "annotations-1723144041518",
+      "name": "Annotations",
+      "assemblyNames": [
+        "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "locationType": "UriLocation",
+          "uri": "my_data/GCF_011762595.1_mTurTru1.mat.Y_genomic.gff"
+        }
+      },
+      "textSearching": {
+        "textSearchAdapter": {
+          "type": "TrixTextSearchAdapter",
+          "textSearchAdapterId": "annotations-1723144041518-index",
+          "ixFilePath": {
+            "locationType": "UriLocation",
+            "uri": "my_data/trix/annotations-1723144041518-index.ix"
+          },
+          "ixxFilePath": {
+            "locationType": "UriLocation",
+            "uri": "my_data/trix/annotations-1723144041518-index.ixx"
+          },
+          "metaFilePath": {
+            "locationType": "UriLocation",
+            "uri": "my_data/trix/annotations-1723144041518-index_meta.json"
+          },
+          "tracks": [
+            "annotations-1723144041518"
+          ],
+          "assemblyNames": [
+            "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz"
+          ]
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "annotations-1723144041518-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "annotations-1723144041518-LinearArcDisplay"
+        }
+      ]
     }
   ]
 }
