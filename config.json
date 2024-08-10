@@ -1,18 +1,18 @@
 {
   "assemblies": [
     {
-      "name": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz",
+      "name": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz-ReferenceSequenceTrack",
+        "trackId": "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna-ReferenceSequenceTrack",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "my_data/GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz",
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/localwizards/T.%20Truncatus%20data/GCF_011762595.1_mTurTru1.mat.Y_genomic.fna",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "my_data/GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.fai",
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/localwizards/T.%20Truncatus%20data/GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.fai",
             "locationType": "UriLocation"
           }
         }
@@ -29,8 +29,12 @@
       "type": "MultiQuantitativeTrack",
       "trackId": "microarray_multi_groups",
       "name": "Pi per population",
-      "category": ["MultiWig Track"],
-      "assemblyNames": ["GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz"],
+      "category": [
+        "ENCODE bigWigs"
+      ],
+      "assemblyNames": [
+        "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna"
+      ],
       "adapter": {
         "type": "MultiWiggleAdapter",
         "subadapters": [
@@ -40,7 +44,7 @@
             "bigWigLocation": {
               "uri": "my_data/bw_cstl_all.bw"
             },
-            "color":"blue"
+            "color": "blue"
           },
           {
             "type": "BigWigAdapter",
@@ -48,7 +52,7 @@
             "bigWigLocation": {
               "uri": "my_data/bw_ins_all.bw"
             },
-            "color":"green"
+            "color": "green"
           },
           {
             "type": "BigWigAdapter",
@@ -56,7 +60,7 @@
             "bigWigLocation": {
               "uri": "my_data/bw_off_all.bw"
             },
-            "color":"red"
+            "color": "red"
           }
         ]
       }
@@ -66,13 +70,13 @@
       "trackId": "annotations-1723144041518",
       "name": "Annotations",
       "assemblyNames": [
-        "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz"
+        "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna"
       ],
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
           "locationType": "UriLocation",
-          "uri": "my_data/GCF_011762595.1_mTurTru1.mat.Y_genomic.gff"
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/localwizards/T.%20Truncatus%20data/GCF_011762595.1_mTurTru1.mat.Y_genomic.gff"
         }
       },
       "textSearching": {
@@ -95,7 +99,7 @@
             "annotations-1723144041518"
           ],
           "assemblyNames": [
-            "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna.gz"
+            "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna"
           ]
         }
       },
