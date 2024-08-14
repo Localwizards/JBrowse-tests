@@ -66,6 +66,46 @@
       }
     },
     {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "microarray_multi_groups",
+      "name": "Pi per population (NEW)",
+      "category": [
+        "ENCODE bigWigs"
+      ],
+      "assemblyNames": [
+        "GCF_011762595.1_mTurTru1.mat.Y_genomic.fna"
+      ],
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+        "subadapters": [
+          {
+            "type": "BigWigAdapter",
+            "name": "BW CSTL",
+            "bigWigLocation": {
+              "uri": "my_data/bigWig_cstl.bw"
+            },
+            "color": "blue"
+          },
+          {
+            "type": "BigWigAdapter",
+            "name": "BW INS",
+            "bigWigLocation": {
+              "uri": "my_data/bigWig_ins.bw"
+            },
+            "color": "green"
+          },
+          {
+            "type": "BigWigAdapter",
+            "name": "BW OFF",
+            "bigWigLocation": {
+              "uri": "my_data/bigWig_off.bw"
+            },
+            "color": "red"
+          }
+        ]
+      }
+    },
+    {
       "type": "FeatureTrack",
       "trackId": "annotations-1723144041518",
       "name": "Annotations",
