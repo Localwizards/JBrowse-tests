@@ -67,7 +67,7 @@
     },
     {
       "type": "MultiQuantitativeTrack",
-      "trackId": "microarray_multi_groups",
+      "trackId": "microarray_multi_groups2",
       "name": "Pi per population (NEW)",
       "category": [
         "ENCODE bigWigs"
