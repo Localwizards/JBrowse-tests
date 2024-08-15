@@ -76,7 +76,7 @@
         "type": "Gff3Adapter",
         "gffLocation": {
           "locationType": "UriLocation",
-          "uri": "https://data.cyverse.org/dav-anon/iplant/home/localwizards/T.%20Truncatus%20data/GCF_011762595.1_mTurTru1.mat.Y_genomic.gff"
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/localwizards/T.%20Truncatus%20data/GCF_011762595.1_mTurTru1.mat.Y_genomic.gff",
         }
       },
       "textSearching": {
